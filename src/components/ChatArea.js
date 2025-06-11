@@ -75,10 +75,10 @@ function ChatArea({ chatHistory, setChatHistory, newChatSignal, resetNewChatSign
     },
   ];
 
-  const GEMINI_API_KEY = "AIzaSyCIcQPMA-IfCLCCy5ufRvhVKOr-vesNK3g";
-  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
-  const IMAGE_GENERATION_API_KEY = "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";
-  const IMAGE_GENERATION_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
+  const GEMINI_API_KEY = "";
+  const GEMINI_URL = ``;
+  const IMAGE_GENERATION_API_KEY = "";
+  const IMAGE_GENERATION_URL = "";
 
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   const recognition = SpeechRecognition ? new SpeechRecognition() : null;
